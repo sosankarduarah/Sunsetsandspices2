@@ -16,11 +16,11 @@
   grid-template-columns: repeat(2, calc(50% - 15.5px));
   min-height: 483px;
   grid-auto-columns: calc(50% - 15.5px);
-  grid-gap: 31px;
+  --gap: 31px;
 }
 
 .u-section-1 .u-image-1 {
-  background-image: url("images/977762ea-7fcb-4520-94ae-71fdc7d3443e.jpg");
+  background-image: url("/images/977762ea-7fcb-4520-94ae-71fdc7d3443e.jpg");
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -38,7 +38,7 @@
 }
 
 .u-section-1 .u-image-2 {
-  background-image: url("images/WhatsAppImage2025-05-10at7.40.03AM.jpeg");
+  background-image: url("/images/WhatsAppImage2025-05-10at7.40.03AM.jpeg");
 }
 
 .u-section-1 .u-container-layout-2 {
@@ -58,7 +58,8 @@
 
 @media (max-width: 1199px) {
   .u-section-1 .u-repeater-1 {
-    min-height: 396px;
+    grid-gap: 31px;
+    min-height: 398px;
   }
 }
 
